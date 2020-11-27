@@ -193,7 +193,7 @@ if __name__ == '__main__':
         print("After your entry you will see the commands issued and output\n")
         print("1. Read the lock sector and output it to lock_sector.txt")
         print("2. Clear the lock sector and put the drive in an unlocked state")
-        print("3. Write the lock sector the the drive stored in lock_sector.txt")
+        print("3. Write the lock sector to the drive. lock_sector.txt will be used.")
         selection =input("Selection: ")
         if selection == '1':
             print("Reading lock sector:")
